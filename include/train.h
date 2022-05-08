@@ -7,7 +7,7 @@ class Train {
   struct Cage {
     bool light; // состояние лампочки
     Cage *next;
-    Cage *prev;
+    Cage *previous;
   };
   int countOp, length, x; // счетчик шагов (число переходов из вагона в вагон)
   Cage *first;
